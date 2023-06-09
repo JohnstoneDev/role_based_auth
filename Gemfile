@@ -11,6 +11,9 @@ gem 'cloudinary'
 # Role based Authorization library
 gem 'rolify'
 
+# JWT Authentication
+gem 'jwt'
+
 # serializer for response objects
 gem 'active_model_serializers'
 
