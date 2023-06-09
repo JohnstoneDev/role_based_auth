@@ -1,14 +1,17 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.1.2"
+# ruby "3.1.2"
 
-# Image Upload Gems 
+# Image Upload Gems
 
 gem 'carrierwave'
 gem 'cloudinary'
 
-# serializer for response objects 
+# Role based Authorization library
+gem 'rolify'
+
+# serializer for response objects
 gem 'active_model_serializers'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -17,7 +20,7 @@ gem "rails", "~> 7.0.4"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
-# password authentication gem 
+# password authentication gem
 gem 'bcrypt'
 
 
@@ -40,7 +43,7 @@ group :development do
   # gem "spring"
 end
 
-group :production do 
+group :production do
   gem 'pg'
-end 
+end
 
