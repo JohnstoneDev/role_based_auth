@@ -8,8 +8,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'carrierwave'
 gem 'cloudinary'
 
-# Role based Authorization library
+# Role based Authorization libraries
 gem 'rolify'
+gem 'cancancan'
 
 # JWT Authentication
 gem 'jwt'
